@@ -1,0 +1,719 @@
+# Global server object structure (as of JET 1.0.3)
+
+```js
+{
+   "clearInterval":"Function",
+   "clearTimeout":"Function",
+   "setInterval":"Function",
+   "setTimeout":"Function",
+   "queueMicrotask":"Function",
+   "clearImmediate":"Function",
+   "setImmediate":"Function",
+   "internal":{
+      "fs":"Package",
+      "path":"Package",
+      "util":"Package",
+      "resolve":"Function",
+      "zlib":"Package",
+      "https":"Package",
+      "selfsigned":"Package",
+      "psList":"Package",
+      "process":"Package"
+   },
+   "core":{
+      "route":{
+         "all":"Function",
+         "CacheModLoad":"Function",
+         "TamperModLoad":"Function"
+      }
+   },
+   "db":{
+      "assort":{
+         "54cb50c76803fa8b248b4571":"Object",
+         "54cb57776803fa99248b456e":"Object",
+         "579dc571d53a0658a154fbec":"Object",
+         "58330581ace78e27b8b10cee":"Object",
+         "5935c25fb3acc3127c3d8cd9":"Object",
+         "5a7c2eca46aef81a7ca2145d":"Object",
+         "5ac3b934156ae10c4430e83c":"Object",
+         "5c0647fdd443bc2504c2d371":"Object",
+         "ragfair":"Object"
+      },
+      "bots":{
+         "assault":"Object",
+         "bear":"Object",
+         "bossbully":"Object",
+         "bossgluhar":"Object",
+         "bosskilla":"Object",
+         "bosskojaniy":"Object",
+         "bosssanitar":"Object",
+         "followerbully":"Object",
+         "followergluharassault":"Object",
+         "followergluharscout":"Object",
+         "followergluharsecurity":"Object",
+         "followerkojaniy":"Object",
+         "followersanitar":"Object",
+         "marksman":"Object",
+         "pmcbot":"Object",
+         "usec":"Object"
+      },
+      "cacheBase":{
+         "botBase":"db/cacheBase/botBase.json",
+         "botCore":"db/cacheBase/botCore.json",
+         "fleaOffer":"db/cacheBase/fleaOffer.json",
+         "globals":"db/cacheBase/globals.json",
+         "locations":"db/cacheBase/locations.json",
+         "location_statics":"db/cacheBase/location_statics.json",
+         "matchMetrics":"db/cacheBase/matchMetrics.json",
+         "traders":"Object"
+      },
+      "customization":{
+         "customization_Hash_Id":"db/customization/customization_Hash_Id.json"
+      },
+      "dialogues":{
+         "dialogues_Hash_Id":"db/dialogues/dialogues_Hash_Id.json"
+      },
+      "hideout":{
+         "settings":"db/hideout/settings.json",
+         "areas":"Object",
+         "production":"Object",
+         "scavcase":"Object"
+      },
+      "items":{
+         "Node_Number_Category":"db/items/Node_Number_Category.json",
+         "Info":"To be more convinient i removed the data and leaved 1 example"
+      },
+      "locales":{
+         "en":"Object",
+         "fr":"Object",
+         "ge":"Object",
+         "ru":"Object"
+      },
+      "locations":{
+         "base":"db/locations/base.json",
+         "bigmap":"db/locations/bigmap.json",
+         "develop":"db/locations/develop.json",
+         "factory4_day":"db/locations/factory4_day.json",
+         "factory4_night":"db/locations/factory4_night.json",
+         "hideout":"db/locations/hideout.json",
+         "interchange":"db/locations/interchange.json",
+         "laboratory":"db/locations/laboratory.json",
+         "lighthouse":"db/locations/lighthouse.json",
+         "privatearea":"db/locations/privatearea.json",
+         "rezervbase":"db/locations/rezervbase.json",
+         "shoreline":"db/locations/shoreline.json",
+         "suburbs":"db/locations/suburbs.json",
+         "tarkovstreets":"db/locations/tarkovstreets.json",
+         "terminal":"db/locations/terminal.json",
+         "town":"db/locations/town.json",
+         "woods":"db/locations/woods.json"
+      },
+      "profile":{
+         "Edge Of Darkness":"Object",
+         "Left Behind":"Object",
+         "Prepare To Escape":"Object",
+         "Standard":"Object"
+      },
+      "templates":{
+         "categories":"db/templates/categories.json",
+         "items":"db/templates/items.json",
+         "quests":"db/templates/quests.json"
+      },
+      "weather":{
+         "fog":"db/weather/fog.json",
+         "heavyclouds":"db/weather/heavyclouds.json",
+         "heavyrain":"db/weather/heavyrain.json",
+         "lightclouds":"db/weather/lightclouds.json",
+         "lightrain":"db/weather/lightrain.json",
+         "storm":"db/weather/storm.json",
+         "sun":"db/weather/sun.json",
+         "thunder":"db/weather/thunder.json",
+         "wind":"db/weather/wind.json"
+      },
+      "user":{
+         "configs":"Object",
+         "events":"Object",
+         "profiles":"Object",
+         "cache":"Object"
+      }
+   },
+   "res":{
+      "bender.light":"res/bender.light.otf",
+      "icon":"res/icon.ico",
+      "style":"res/style.css",
+      "banners":{
+         "fine_name":"res/banners/fine_name.FILETYPE"
+      },
+      "handbook":{
+         "fine_name":"res/handbook/fine_name.FILETYPE"
+      },
+      "hideout":{
+         "fine_name":"res/hideout/fine_name.FILETYPE"
+      },
+      "quest":{
+         "quest_Hash_Id":"res/quest/quest_Hash_Id.FILETYPE"
+      },
+      "trader":{
+         "trader_Hash_Id":"res/trader/trader_Hash_Id.FILETYPE",
+         "unknown":"res/trader/unknown.jpg"
+      }
+   },
+   "_database":{
+      "globals":{
+         "config":"Object",
+         "time":1603109633,
+         "bot_presets":"Array",
+         "BotWeaponScatterings":"Array",
+         "ItemPresets":"Object",
+         "HealthEffect":false,
+         "SkillMinEffectiveness":2,
+         "SkillFatiguePerPoint":0,
+         "SkillFreshEffectiveness":10,
+         "GlobalLootChanceModifier":500
+      },
+      "gameplayConfig":{
+         "autosave":"Object",
+         "inraid":"Object",
+         "other":"Object",
+         "defaultRaidSettings":"Object",
+         "bots":"Object",
+         "trading":"Object",
+         "location":"Object",
+         "locationloot":"Object",
+         "match":"Object"
+      },
+      "items":{
+         "item_Hash_Id":"Object of that item"
+      },
+      "templates":{
+         "Categories":[
+            {
+               "Id":"item_Hash_Id",
+               "ParentId":"category_Hash_Id",
+               "Icon":"Icon_path_to_file",
+               "Color":"",
+               "Order":"100"
+            }
+         ],
+         "Items":[
+            {
+               "Id":"item_Hash_Id",
+               "ParentId":"category_Hash_Id",
+               "Price":"number: price"
+            }
+         ]
+      }
+   },
+   "startTimestamp":1605753919228,
+   "executedDir":"J:\\_git\\JET-Backend-Server",
+   "fileIO":{
+      "stringify":"Function: (data, oneLiner = false)",
+      "createReadStream":"Function (file)",
+      "createWriteStream":"Function (file)",
+      "readParsed":"Function (file) - Reads and Parses loaded file to json",
+      "parse":"Function (string) - Parses given string to json object",
+      "read":"Function (file) - reads file as string",
+      "exist":"Function (file) - checks if file exists true if exist false if dont",
+      "readDir":"Function (path) - returns array of files in given directory",
+      "statSync":"Function (path)",
+      "lstatSync":"Function (path)",
+      "unlink":"Function (path) - deletes file",
+      "rmDir":"Function (path)",
+      "mkDir":"Function (path)",
+      "write":"Function (file, data, raw = false) - saves file data in given file, supports data 1 liner and also beautifier"
+   },
+   "serverConfig":{
+      "ip":"127.0.0.1",
+      "port":443,
+      "eventPollIntervalSec":60,
+      "rebuildCache":false,
+      "name":"JustEmuTarkov",
+      "offline":true,
+      "hideInfoLogs":true,
+      "debugTimer":true,
+      "translations":{
+         "alreadyInUse":"The nickname is already in use",
+         "tooShort":"The nickname is too short"
+      }
+   },
+   "modsConfig":[
+      {
+         "name":"ModName",
+         "author":"ModAuthor",
+         "version":"0.0.0",
+         "enabled":true
+      }
+   ],
+   "utility":{
+      "info":"some of this functions could be deleted in later releases make sure they are working or check jet release changelog",
+      "getCookies":"Function (req)",
+      "clearString":"Function (string)",
+      "getRandomInt":"Function (min = 0, max = 100)",
+      "getRandomIntEx":"Function (max)",
+      "getDirList":"Function (path)",
+      "removeDir":"Function (dir)",
+      "getServerUptimeInSeconds":"Function ()",
+      "getTimestamp":"Function ()",
+      "getTime":"Function ()",
+      "formatTime":"Function (date)",
+      "getDate":"Function ()",
+      "formatDate":"Function (date)",
+      "makeSign":"Function (Length)",
+      "generateNewAccountId":"Function ()",
+      "generateNewItemId":"Function ()",
+      "generateNewDialogueId":"Function ()",
+      "generateNewId":"Function (prefix)",
+      "secondsToTime":"Function (timestamp)",
+      "isUndefined":"Function (dataToCheck)"
+   },
+   "logger":{
+      "info":"colors: black,red,green,yellow,blue,magenta,cyan,white",
+      "log":"Function (type, data, colorFront = '', colorBack = '')",
+      "logError":"Function (text)",
+      "logWarning":"Function (text)",
+      "logSuccess":"Function (text)",
+      "logInfo":"Function (text)",
+      "logRequest":"Function (text data = '')",
+      "logData":"Function (data)",
+      "throwErr":"Function (message, where, additional = '') - Throw an exception which should shutdown server"
+   },
+   "router":{
+      "staticRoutes":{
+         "/client/chatServer/list":"Function",
+         "/client/checkVersion":"Function",
+         "/client/customization":"Function",
+         "/client/friend/list":"Function",
+         "/client/friend/request/list/inbox":"Function",
+         "/client/friend/request/list/outbox":"Function",
+         "/client/game/bot/generate":"Function",
+         "/client/game/config":"Function",
+         "/client/game/keepalive":"Function",
+         "/client/game/logout":"Function",
+         "/client/game/profile/create":"Function",
+         "/client/game/profile/items/moving":"Function",
+         "/client/game/profile/list":"Function",
+         "/client/game/profile/nickname/change":"Function",
+         "/client/game/profile/nickname/reserved":"Function",
+         "/client/game/profile/nickname/validate":"Function",
+         "/client/game/profile/savage/regenerate":"Function",
+         "/client/game/profile/select":"Function",
+         "/client/game/profile/voice/change":"Function",
+         "/client/game/start":"Function",
+         "/client/game/version/validate":"Function",
+         "/client/getMetricsConfig":"Function",
+         "/client/globals":"Function",
+         "/client/handbook/builds/my/list":"Function",
+         "/client/handbook/templates":"Function",
+         "/client/hideout/areas":"Function",
+         "/client/hideout/production/recipes":"Function",
+         "/client/hideout/production/scavcase/recipes":"Function",
+         "/client/hideout/settings":"Function",
+         "/client/insurance/items/list/cost":"Function",
+         "/client/items":"Function",
+         "/client/items/prices":"Function",
+         "/client/languages":"Function",
+         "/client/locations":"Function",
+         "/client/mail/dialog/getAllAttachments":"Function",
+         "/client/mail/dialog/info":"Function",
+         "/client/mail/dialog/list":"Function",
+         "/client/mail/dialog/pin":"Function",
+         "/client/mail/dialog/read":"Function",
+         "/client/mail/dialog/remove":"Function",
+         "/client/mail/dialog/unpin":"Function",
+         "/client/mail/dialog/view":"Function",
+         "/client/match/available":"Function",
+         "/client/match/exit":"Function",
+         "/client/match/group/create":"Function",
+         "/client/match/group/delete":"Function",
+         "/client/match/group/exit_from_menu":"Function",
+         "/client/match/group/invite/accept":"Function",
+         "/client/match/group/invite/cancel":"Function",
+         "/client/match/group/invite/send":"Function",
+         "/client/match/group/looking/start":"Function",
+         "/client/match/group/looking/stop":"Function",
+         "/client/match/group/start_game":"Function",
+         "/client/match/group/status":"Function",
+         "/client/match/join":"Function",
+         "/client/match/updatePing":"Function",
+         "/client/notifier/channel/create":"Function",
+         "/client/profile/status":"Function",
+         "/client/putMetrics":"Function",
+         "/client/quest/list":"Function",
+         "/client/ragfair/find":"Function",
+         "/client/ragfair/itemMarketPrice":"Function",
+         "/client/ragfair/search":"Function",
+         "/client/server/list":"Function",
+         "/client/trading/api/getTradersList":"Function",
+         "/client/trading/customization/storage":"Function",
+         "/client/weather":"Function",
+         "/launcher/profile/change/email":"Function",
+         "/launcher/profile/change/password":"Function",
+         "/launcher/profile/change/wipe":"Function",
+         "/launcher/profile/get":"Function",
+         "/launcher/profile/login":"Function",
+         "/launcher/profile/register":"Function",
+         "/launcher/profile/remove":"Function",
+         "/launcher/server/connect":"Function",
+         "/mode/offline":"Function",
+         "/player/health/events":"Function",
+         "/player/health/sync":"Function",
+         "/raid/map/name":"Function",
+         "/raid/profile/list":"Function",
+         "/raid/profile/save":"Function",
+         "/server/config/accounts":"Function",
+         "/server/config/gameplay":"Function",
+         "/server/config/mods":"Function",
+         "/server/config/profiles":"Function",
+         "/server/config/server":"Function",
+         "/singleplayer/bundles":"Function",
+         "/singleplayer/settings/raid/menu":"Function"
+      },
+      "dynamicRoutes":{
+         "/singleplayer/settings/weapon/durability":"Function",
+         "/singleplayer/settings/defaultRaidSettings":"Function",
+         "/singleplayer/settings/bot/limit":"Function",
+         "/singleplayer/settings/bot/difficulty":"Function",
+         "/server/profile":"Function",
+         "/push/notifier/get":"Function",
+         ".png":"Function",
+         "/notifierServer":"Function",
+         "/notifierBase":"Function",
+         "?last_id":"Function",
+         ".jpg":"Function",
+         "/client/trading/customization":"Function",
+         "/client/trading/api/getUserAssortPrice/trader":"Function",
+         "/client/trading/api/getTraderAssort/":"Function",
+         "/client/trading/api/getTrader/":"Function",
+         "/client/menu/locale":"Function",
+         "/client/locale":"Function",
+         ".bundle":"Function",
+         "/api/location":"Function"
+      }
+   },
+   "events":{
+      "scheduledEventHandler":{
+         "eventCallbacks":"Object",
+         "scheduledEvents":[
+            
+         ]
+      }
+   },
+   "server":{
+      "buffers":{
+         
+      },
+      "name":"JustEmuTarkov",
+      "ip":"127.0.0.1",
+      "port":443,
+      "backendUrl":"https://127.0.0.1:443",
+      "version":"1.0.2",
+      "mime":{
+         "html":"text/html",
+         "txt":"text/plain",
+         "jpg":"image/jpeg",
+         "png":"image/png",
+         "css":"text/css",
+         "otf":"font/opentype",
+         "json":"application/json"
+      },
+      "cacheCallback":{
+         "cacheassort":"Function",
+         "cachecustomization":"Function",
+         "cacheHideoutAreas":"Function",
+         "cacheHideoutProduction":"Function",
+         "cacheHideoutScavcase":"Function",
+         "cacheitems":"Function",
+         "cachelanguages":"Function",
+         "cachelocale":"Function",
+         "cachelocations":"Function",
+         "cachemodlist":"Function",
+         "cachequests":"Function",
+         "cacheragfair":"Function",
+         "cacheroutes":"Function",
+         "cachetemplates":"Function",
+         "cacheweather":"Function"
+      },
+      "startCallback":{
+         "loadAccounts":"Function",
+         "loadBundles":"Function",
+         "loadCaching":"Function",
+         "loadCustomization":"Function",
+         "loadHideout":"Function",
+         "loadLocales":"Function",
+         "loadLocations":"Function",
+         "loadPresets":"Function",
+         "loadQuests":"Function",
+         "loadSavehandler":"Function",
+         "loadTraders":"Function",
+         "loadWeather":"Function"
+      },
+      "receiveCallback":{
+         "insurance":"Function",
+         "SAVE":"Function"
+      },
+      "respondCallback":{
+         "BUNDLE":"Function",
+         "IMAGE":"Function",
+         "NOTIFY":"Function",
+         "DONE":"Function"
+      }
+   },
+   "helper_f":{
+      "fillContainerMapWithItem":"Function",
+      "findSlotForItem":"Function",
+      "appendErrorToOutput":"Function",
+      "getItemSize":"Function",
+      "getInventoryItemHash":"Function",
+      "getPlayerStashSlotMap":"Function",
+      "getSizeByInventoryItemHash":"Function",
+      "getPreset":"Function",
+      "getTemplatePrice":"Function",
+      "templatesWithParent":"Function",
+      "isCategory":"Function",
+      "childrenCategories":"Function",
+      "recheckInventoryFreeSpace":"Function",
+      "isMoneyTpl":"Function",
+      "getCurrency":"Function",
+      "inRUB":"Function",
+      "fromRUB":"Function",
+      "payMoney":"Function",
+      "findMoney":"Function",
+      "getMoney":"Function",
+      "getPlayerStash":"Function",
+      "getItem":"Function",
+      "getSize":"Function",
+      "findAndReturnChildren":"Function",
+      "findAndReturnChildrenByItems":"Function",
+      "findAndReturnChildrenAsItems":"Function",
+      "isDogtag":"Function",
+      "isNotSellable":"Function",
+      "replaceIDs":"Function",
+      "splitStack":"Function",
+      "clone":"Function",
+      "arrayIntersect":"Function",
+      "findInventoryItemById":"Function"
+   },
+   "account_f":{
+      "handler":{
+         "accounts":"Object"
+      },
+      "getPath":"Function"
+   },
+   "bots_f":{
+      "generate":"Function",
+      "generatePlayerScav":"Function"
+   },
+   "bundles_f":{
+      "handler":{
+         "bundles":[
+            
+         ],
+         "bundleBykey":{
+            
+         },
+         "backendUrl":"https://127.0.0.1:443"
+      }
+   },
+   "customization_f":{
+      "initialize":"Function",
+      "getCustomization":"Function",
+      "getPath":"Function",
+      "wearClothing":"Function",
+      "buyClothing":"Function"
+   },
+   "dialogue_f":{
+      "handler":{
+         "dialogues":{
+            
+         }
+      },
+      "getMessageTypeValue":"Function",
+      "findAndReturnChildren":"Function"
+   },
+   "health_f":{
+      "handler":{
+         "healths":{
+            
+         },
+         "effects":{
+            
+         }
+      }
+   },
+   "hideout_f":{
+      "initialize":"Function",
+      "upgrade":"Function",
+      "upgradeComplete":"Function",
+      "putItemsInAreaSlots":"Function",
+      "takeItemsFromAreaSlots":"Function",
+      "toggleArea":"Function",
+      "singleProductionStart":"Function",
+      "continuousProductionStart":"Function",
+      "scavCaseProductionStart":"Function",
+      "takeProduction":"Function"
+   },
+   "home_f":{
+      "RenderHomePage":"Function",
+      "RenderGameplayConfigPage":"Function",
+      "RenderServerConfigPage":"Function",
+      "RenderModsConfigPage":"Function",
+      "renderPage":"Function",
+      "processSaveData":"Function"
+   },
+   "insurance_f":{
+      "handler":{
+         "insured":{
+            
+         }
+      },
+      "cost":"Function",
+      "insure":"Function"
+   },
+   "item_f":{
+      "handler":{
+         "output":"Object",
+         "routes":"Object",
+         "routeStructure":"Object"
+      }
+   },
+   "keepalive_f":{
+      "main":"Function"
+   },
+   "locale_f":{
+      "handler":{
+         "languages":"Object",
+         "menu":"Object",
+         "global":"Object"
+      }
+   },
+   "location_f":{
+      "handler":{
+         "locations":"Object",
+         "location":{
+            
+         },
+         "loot":"Object"
+      }
+   },
+   "match_f":{
+      "handler":{
+         "locations":{
+            
+         }
+      }
+   },
+   "move_f":{
+      "applyInventoryChanges":"Function",
+      "moveItem":"Function",
+      "removeItemFromProfile":"Function",
+      "removeItem":"Function",
+      "discardItem":"Function",
+      "splitItem":"Function",
+      "mergeItem":"Function",
+      "transferItem":"Function",
+      "swapItem":"Function",
+      "addItem":"Function"
+   },
+   "note_f":{
+      "addNote":"Function",
+      "editNode":"Function",
+      "deleteNote":"Function"
+   },
+   "notifier_f":{
+      "handler":{
+         "messageQueue":{
+            
+         }
+      },
+      "createNewMessageNotification":"Function"
+   },
+   "offraid_f":{
+      "handler":{
+         "players":{
+            
+         }
+      },
+      "saveProgress":"Function",
+      "getSecuredContainer":"Function",
+      "getPlayerGear":"Function"
+   },
+   "preset_f":{
+      "handler":{
+         "lookup":"Object"
+      }
+   },
+   "profile_f":{
+      "handler":{
+         "profiles":{
+            
+         }
+      },
+      "getStashType":"Function",
+      "calculateLevel":"Function"
+   },
+   "quest_f":{
+      "initialize":"Function",
+      "getQuestsCache":"Function",
+      "acceptQuest":"Function",
+      "completeQuest":"Function",
+      "handoverQuest":"Function",
+      "getQuestStatus":"Function"
+   },
+   "ragfair_f":{
+      "getOffers":"Function",
+      "ragFairAddOffer":"Function",
+      "itemMarKetPrice":"Function"
+   },
+   "repair_f":{
+      "main":"Function"
+   },
+   "response_f":{
+      "noBody":"Function",
+      "getBody":"Function",
+      "getUnclearedBody":"Function",
+      "nullResponse":"Function",
+      "emptyArrayResponse":"Function"
+   },
+   "savehandler_f":{
+      "initialize":"Function",
+      "saveOpenSessions":"Function"
+   },
+   "status_f":{
+      "foldItem":"Function",
+      "toggleItem":"Function",
+      "tagItem":"Function",
+      "bindItem":"Function",
+      "examineItem":"Function",
+      "readEncyclopedia":"Function"
+   },
+   "trade_f":{
+      "buyItem":"Function",
+      "sellItem":"Function",
+      "confirmTrading":"Function",
+      "confirmRagfairTrading":"Function"
+   },
+   "trader_f":{
+      "handler":{
+         "traders":"Object",
+         "assorts":{
+            
+         }
+      }
+   },
+   "weaponbuilds_f":{
+      "getPath":"Function",
+      "getUserBuilds":"Function",
+      "saveBuild":"Function",
+      "removeBuild":"Function"
+   },
+   "weather_f":{
+      "initialize":"Function",
+      "generate":"Function"
+   },
+   "wishlist_f":{
+      "addToWishList":"Function",
+      "removeFromWishList":"Function",
+      "resetWishList":"Function"
+   }
+}
+```
