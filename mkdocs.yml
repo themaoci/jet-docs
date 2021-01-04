@@ -1,5 +1,9 @@
 site_name: JustEmuTarkov Documentation
 theme:
   name: material
+  palette: 
+    scheme: slate
+    primary: black
 markdown_extensions:
-  - pymdownx.inlinehilite
+  - pymdownx.highlight
+  - pymdownx.superfences
