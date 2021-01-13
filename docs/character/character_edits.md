@@ -8,6 +8,13 @@
 4. Look for your quest's `status` property. It will usually say `"status": "Success"` or `"status": "Started"`.
 5. Change the value to `AvailableForFinish`. It should now say `"status": "AvailableForFinish"`. The quest can now be submitted.
     - If, in the raid, you were killed with a quest item, and it no longer spawns on the map, you can change the value to `AvailableForStart` to take the quest again.
+    
+## Modify XP Rate
+
+1. Navigate to `JET/Server/db/cacheBase/globals.json`. Be careful when editing db/ files.
+2. Search for the `SkillProgressRate` and `WeaponSkillProgressRate` properties.
+3. Set these properties to `1` for a live-like rate, or to whatever you want.
+4. Save and clear your user cache.
 
 ## Change your roubles amount
 
