@@ -24,7 +24,7 @@ To download EFT clients supported by JET, you must download one of the below cli
 - [0.12.7.9018](https://maoci.eu/download?file=EFT0.12.7.9018) *(not recommended)*
 - [0.12.8.9506](https://maoci.eu/download?file=EFT0.12.8.9506)
 - [0.12.8.9767](https://maoci.eu/download?file=EFT0.12.8.9767) *(latest supported version)*
-  - [Alternate Mirror](https://drive.google.com/file/d/1sTOZ2AcO68pqbc9UjsZ94588ihCnB9Jp/view)
+    - [Alternate Mirror](https://drive.google.com/file/d/1sTOZ2AcO68pqbc9UjsZ94588ihCnB9Jp/view)
 
 Make sure the binaries you download from the download center match the client version you download.
 
