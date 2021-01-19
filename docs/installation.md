@@ -5,7 +5,7 @@
 ## Installation Video
 
 <video width="720" height="480" controls>
-  <source src="http://static.kiobu.dev/install.mp4">
+  <source src="https://static.kiobu.dev/install.mp4">
 </video>
 
 ## Requirements
