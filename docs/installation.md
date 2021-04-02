@@ -80,19 +80,17 @@ JET/
 |        |__NLog.dll.nlog
 ```
 
-5. You are ready to begin playing. Launch `JET/Server/Server.exe`. You should see the server print: `Server is working at: https://127.0.0.1:443`
+5. You are ready to begin playing. Launch `JET/Client/JET Launcher.exe`.
+    - **NOTE:** If you are using <JET 1.1.0, you will need to launch the server and launcher separately. That means you need to launch `JET/Server/Server.exe` first, and then `JET/Client/JET Launcher.exe`.
 
-6. Launch `JET/Client/JET Launcher.exe`. 
-    - Make sure the server is running before you start the launcher.
+6. Press the **Start Server** button.
 
-7. If the server box says `JustEmuTarkov`, then hit **Connect** and you will be connected to your JET server.
-
-8. To login, you can use the pre-created account with the username *Maoci* and the password *123*, or you can create your own by selecting **Create Profile**.
+7. To login, you can use the pre-created account with the username *Maoci* and the password *123*, or you can create your own by pressing the **+** button.
     - The e-mail and password do not need to be legitimate. You can enter whatever text you want into the boxes, as long as you remember them.
 
-9. After choosing what version you want and registering, login to your new account. 
+8. After choosing what version you want and registering the account, login to your new account. 
 
-10. Press **Start Game**, and you should now be launching JET's EFT.
+9. Press **Start Game**, and you should now be launching JET's EFT.
 
 ## Install FAQ
 
