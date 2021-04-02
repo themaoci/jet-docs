@@ -22,7 +22,7 @@ To download the JET server and JET binaries, the packs are hosted on [justemutar
 | Client version | Latest supported JET Server version |
 |----------------|-------------------------------------|
 | 12.8.*         | 1.0.3                               |
-| 12.9.*         | 1.1.1                               |
+| 12.9.*         | 1.1.0                               |
 | 12.10.*        | 1.2.0 *(not released)*              |
 
 To download EFT clients supported by JET, you must download one of the below client archives:
