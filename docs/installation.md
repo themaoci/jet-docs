@@ -5,28 +5,38 @@
 ## Installation Video
 
 <video width="720" height="480" controls>
-  <source src="https://static.kiobu.dev/install.mp4">
+  <source src="install.mp4">
 </video>
 
 ## Requirements
 
-- Archive unpacker (7zip, WinRAR, etc.).
-- Server files (named **JET_X.X.X_Server.7z**), where **X.X.X** is the latest JET server release.
+- 7zip.
+- Server files that match your game client.
 - A supported Escape from Tarkov client version. These are available below.
 - Binary files that match your EFT client version (named **JET-Binaries-XXXX.7z**), where **XXXX** is your client version.
 
 ## Download Center
 
-To download the JET server and JET binaries, the archives are hosted on [mega.nz](https://mega.nz/folder/Fg1WCAbR#LVAylusBUPB0cJ6QQXI2QA).
+To download the JET server and JET binaries, the packs are hosted on [justemutarkov.eu](https://justemutarkov.eu/download).
+
+| Client version | Latest supported JET Server version |
+|----------------|-------------------------------------|
+| 12.8.*         | 1.0.3                               |
+| 12.9.*         | 1.1.1                               |
+| 12.10.*        | 1.2.0                               |
 
 To download EFT clients supported by JET, you must download one of the below client archives:
 
-- [0.12.7.9018](https://maoci.eu/download?file=EFT0.12.7.9018) *(not recommended)*
-- [0.12.8.9506](https://maoci.eu/download?file=EFT0.12.8.9506)
-- [0.12.8.9767](https://maoci.eu/download?file=EFT0.12.8.9767) *(latest supported version)*
+- [0.12.7.9018](https://maoci.eu/download?file=EFT0.12.7.9018) *(not supported)*
+- [0.12.8.9506](https://maoci.eu/download?file=EFT0.12.8.9506) *(not supported)*
+- [0.12.8.9767](https://maoci.eu/download?file=EFT0.12.8.9767) *(not supported)*
     - [Alternate Mirror](https://drive.google.com/file/d/1sTOZ2AcO68pqbc9UjsZ94588ihCnB9Jp/view)
+    - [Alternative Mirror #2](https://cdn.storeit.digital/file/JustEmuTarkov/Client.0.12.8.9767.zip)
+- [0.12.9.10532](https://cdn.storeit.digital/file/JustEmuTarkov/Client.0.12.9.10532.zip)
+- [0.12.9.10988](http://cdn-11.eft-store.com/client/live/distribs/0.12.9.2.10988_11c0b785-b414-46da-90e3-95e2f824cf49/Client.0.12.9.2.10988.zip) *(latest release)*
+    - [Alternative Mirror](https://cdn.storeit.digital/file/JustEmuTarkov/EFT.0.12.9.2.10988.zip)
 
-Make sure the binaries you download from the download center match the client version you download.
+**NOTE:** Make sure the binaries you download from the download center match the client version you download.
 
 ## Installation Process
 
