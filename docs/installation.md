@@ -5,7 +5,7 @@
 ## Installation Video
 
 <video width="720" height="480" controls>
-  <source src="install.mp4">
+  <source src="https://files.catbox.moe/ee1k78.mp4">
 </video>
 
 ## Requirements
