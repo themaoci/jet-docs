@@ -10,6 +10,16 @@ JET works by emulating BSG's production backend, which is a RESTful API used to 
 
 JET is *not* a cheat, and *not* a multiplayer server. It is strictly an endpoint for your game to talk to, to receive important information that allows the game to run entirely offline. This means there is no match server, and therefore, no way to play with your friends. Since it is a locally hosted backend, this also means it has no connection to your BSG account, your EFT profile, or anything to do with BSG's representation of your copy of the game. This means you *cannot* use JET as a way to cheat in items or money to your online account. It is entirely localized on your host computer.
 
+To prevent our modified client files from leaking into your live EFT installation, we implore that you do not mix JET files with your normal EFT installation. It is recommended to create a separate directory for your JET client, meaning you would have two separate installations of the game. This way, it is impossible to get banned for client modifications, since you would never be launching into BSG's servers with your JET-only installation.
+
+If you have more questions about EmuTarkov/JET, you should join one of the two Discord servers below:
+- [EmuTarkov Community](https://discord.gg/NJANk5gCeN)
+- [JustEmuTarkov Discord](https://discord.gg/T66tGKa)
+
+You can also join the ConfigFreaks Discord, one of our partnered communities:
+- [ConfigFreaks Discord](https://discord.gg/CeBQqzB)
+
+
 ## Footer
 
 For queries on this documentation, email [kio@is.dead.gg](mailto:kio@is.dead.gg).
