@@ -13,10 +13,12 @@ JET is *not* a cheat, and *not* a multiplayer server. It is strictly an endpoint
 To prevent our modified client files from leaking into your live EFT installation, we implore that you do not mix JET files with your normal EFT installation. It is recommended to create a separate directory for your JET client, meaning you would have two separate installations of the game. This way, it is impossible to get banned for client modifications, since you would never be launching into BSG's servers with your JET-only installation.
 
 If you have more questions about EmuTarkov/JET, you should join one of the two Discord servers below:
+
 - [EmuTarkov Community](https://discord.gg/NJANk5gCeN)
 - [JustEmuTarkov Discord](https://discord.gg/T66tGKa)
 
 You can also join the ConfigFreaks Discord, one of our partnered communities:
+
 - [ConfigFreaks Discord](https://discord.gg/CeBQqzB)
 
 
