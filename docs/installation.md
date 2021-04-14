@@ -80,8 +80,16 @@ JET/
 |        |__NLog.dll.nlog
 ```
 
+So, to summarize:
+
+- Extract your game files to the *client folder*.
+- Extract your server files to the *server folder*.
+- Extract your binaries to the *client folder*, and overwrite when asked.
+
+It's really quite simple.
+
 5. You are ready to begin playing. Launch `JET/Client/JET Launcher.exe`.
-    - **NOTE:** If you are using <JET 1.1.0, you will need to launch the server and launcher separately. That means you need to launch `JET/Server/Server.exe` first, and then `JET/Client/JET Launcher.exe`.
+    - **NOTE:** If you are using JET 1.0.3 or older, you will need to open the server and the launcher separately. That means you need to launch `JET/Server/Server.exe` first, and then `JET/Client/JET Launcher.exe`.
 
 6. Press the **Start Server** button.
 
@@ -97,3 +105,15 @@ JET/
 **Q:** *I am getting an NLog related error and it's preventing me from running the JET Launcher!*
 
 - **A:** *Go to your `JET/Client/EscapeFromTarkov_Data/Managed/` folder. Now, look for all files related to NLog and go to their properties. At the bottom, you should see an checkbox labeled* **Unblock***. Unblock all NLog files. If this does not work, reinstall your client binaries.*
+
+**Q:** *I am getting a 0Harmony.dll missing error!*
+
+- **A:** *Reinstall your binaries, using 7zip.*
+
+**Q:** *My game is stuck loading when I start!*
+
+- **A:** *Reinstall your binaries, using 7zip.*
+
+**Q:** *My server keeps shutting itself down!*
+
+- **A:** *Disable your antivirus, or set an exception for Server.exe and JET Launcher.exe in its exclusion properties.*
