@@ -80,14 +80,6 @@ JET/
 |        |__NLog.dll.nlog
 ```
 
-So, to summarize:
-
-- Extract your game files to the *client folder*.
-- Extract your server files to the *server folder*.
-- Extract your binaries to the *client folder*, and overwrite when asked.
-
-It's really quite simple.
-
 5. You are ready to begin playing. Launch `JET/Client/JET Launcher.exe`.
     - **NOTE:** If you are using JET 1.0.3 or older, you will need to open the server and the launcher separately. That means you need to launch `JET/Server/Server.exe` first, and then `JET/Client/JET Launcher.exe`.
 
@@ -99,6 +91,14 @@ It's really quite simple.
 8. After choosing what version you want and registering the account, login to your new account. 
 
 9. Press **Start Game**, and you should now be launching JET's EFT.
+
+Addendum. So, to summarize:
+
+- Extract your game files to the *client folder*.
+- Extract your server files to the *server folder*.
+- Extract your binaries to the *client folder*, and overwrite when asked.
+
+It's really quite simple.
 
 ## Install FAQ
 
