@@ -50,11 +50,11 @@ JET/
 |__Client/
 ```
 
-2. Extract your downloaded EFT **client files** to `JET/Client`.
+2. Extract your downloaded EFT **client files** to `JET/Client`. This is the folder that will host your game files, such as `EscapeFromTarkov.exe`. We will call this the **client folder**.
 
-3. Extract your downloaded JET **server files** to `JET/Server`.
+3. Extract your downloaded JET **server files** to `JET/Server`. This is the folder that will host your JET server files, such as `Server.exe` and the `db` folder. We will call this the **server folder**.
 
-4. Extract your downloaded JET **client binaries** to `JET/Client`. You should get a message asking if you want to overwrite existing files, select **Yes.** Your directories should now look similar to the following:
+4. Extract your downloaded JET **client binaries** to `JET/Client` using **7zip**. The binaries should have files such as `JET Launcher.exe` and an `EscapeFromTarkov_Data` folder, which will overwrite the existing files in your client's `EscapeFromTarkov_Data` folder. When moving your binaries to the `JET/Client` folder, you should get a message asking if you want to overwrite existing files, select **Yes.** Your directories should now look similar to the following:
 
 ```
 JET/
