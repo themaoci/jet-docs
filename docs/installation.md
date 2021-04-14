@@ -117,3 +117,7 @@ It's really quite simple.
 **Q:** *My server keeps shutting itself down!*
 
 - **A:** *Disable your antivirus, or set an exception for Server.exe and JET Launcher.exe in its exclusion properties.*
+
+**Q:** *I'm seriously a brainlet and can't figure this shit out!*
+
+- **A:** *Feel free to ask in the support channels/support tickets of any of our affiliated Discord servers. Links to these are [here.](index.md)*
