@@ -1,5 +1,7 @@
 # Global server object structure (as of JET 1.0.3)
 
+_Info server for 12.11 will change slight abit so take that inmind will update it later on ~themaoci_
+
 ```js
 {
    "clearInterval":"Function",
@@ -394,13 +396,13 @@
       "scheduledEventHandler":{
          "eventCallbacks":"Object",
          "scheduledEvents":[
-            
+
          ]
       }
    },
    "server":{
       "buffers":{
-         
+
       },
       "name":"JustEmuTarkov",
       "ip":"127.0.0.1",
@@ -506,10 +508,10 @@
    "bundles_f":{
       "handler":{
          "bundles":[
-            
+
          ],
          "bundleBykey":{
-            
+
          },
          "backendUrl":"https://127.0.0.1:443"
       }
@@ -524,7 +526,7 @@
    "dialogue_f":{
       "handler":{
          "dialogues":{
-            
+
          }
       },
       "getMessageTypeValue":"Function",
@@ -533,10 +535,10 @@
    "health_f":{
       "handler":{
          "healths":{
-            
+
          },
          "effects":{
-            
+
          }
       }
    },
@@ -563,7 +565,7 @@
    "insurance_f":{
       "handler":{
          "insured":{
-            
+
          }
       },
       "cost":"Function",
@@ -590,7 +592,7 @@
       "handler":{
          "locations":"Object",
          "location":{
-            
+
          },
          "loot":"Object"
       }
@@ -598,7 +600,7 @@
    "match_f":{
       "handler":{
          "locations":{
-            
+
          }
       }
    },
@@ -622,7 +624,7 @@
    "notifier_f":{
       "handler":{
          "messageQueue":{
-            
+
          }
       },
       "createNewMessageNotification":"Function"
@@ -630,7 +632,7 @@
    "offraid_f":{
       "handler":{
          "players":{
-            
+
          }
       },
       "saveProgress":"Function",
@@ -645,7 +647,7 @@
    "profile_f":{
       "handler":{
          "profiles":{
-            
+
          }
       },
       "getStashType":"Function",
@@ -696,7 +698,7 @@
       "handler":{
          "traders":"Object",
          "assorts":{
-            
+
          }
       }
    },
